@@ -13,5 +13,6 @@ Metrics/LineLength:
 AllCops:
   Exclude:
     - 'bin/**/*'
+    - 'config/**/*'
     - 'db/**/*'
     - 'test/**/*'
