@@ -1,6 +1,3 @@
-Rails:
-  Enabled: true
-
 Layout/TrailingBlankLines:
   Enabled: false
 
