@@ -1,0 +1,23 @@
+Layout/TrailingBlankLines:
+  Enabled: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100

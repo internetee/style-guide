@@ -1,0 +1,16 @@
+require: rubocop-rails
+inherit_from:
+  - "https://raw.githubusercontent.com/internetee/style-guide/master/.rubocop-ruby.yml"
+
+Metrics/BlockLength:
+  Exclude:
+    - 'app/views/**/*.xml.builder'
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'test/**/*'
+    - 'spec/**/*'
+    - 'Rakefile'
