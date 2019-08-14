@@ -1,6 +1,6 @@
 require: rubocop-rails
 inherit_from:
-  - "https://raw.githubusercontent.com/internetee/style-guide/master/.rubocop-ruby.yml"
+  - .rubocop-ruby.yml
 
 Metrics/BlockLength:
   Exclude:
