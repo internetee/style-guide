@@ -13,5 +13,4 @@ AllCops:
     - 'db/**/*'
     - 'node_modules/**/*'
     - 'test/**/*'
-    - 'spec/**/*'
     - 'Rakefile'
