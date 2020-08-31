@@ -6,6 +6,10 @@ Metrics/BlockLength:
   Exclude:
     - 'app/views/**/*.xml.builder'
 
+Rails/SkipsModelValidations:
+  Whitelist:
+    - touch
+
 AllCops:
   Exclude:
     - 'bin/**/*'
