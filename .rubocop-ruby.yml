@@ -17,4 +17,10 @@ Documentation:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 100
+  Max: 120
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
