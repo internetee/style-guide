@@ -22,6 +22,9 @@ Style/RedundantRegexpEscape:
 Style/MixedRegexpCaptureTypes:
   Enabled: false
 
+Style/KeywordParametersOrder:
+  Enabled: false
+
 Documentation:
   Enabled: false
 
@@ -42,3 +45,6 @@ Naming/UncommunicativeMethodParamName:
     - x
     - y
     - ph
+    - pw
+    - ip
+    - id
