@@ -13,6 +13,15 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
+Style/Lambda:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+Style/MixedRegexpCaptureTypes:
+  Enabled: false
+
 Documentation:
   Enabled: false
 
@@ -24,3 +33,12 @@ Metrics/PerceivedComplexity:
 
 Metrics/CyclomaticComplexity:
   Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Naming/UncommunicativeMethodParamName:
+  AllowedNames:
+    - x
+    - y
+    - ph
