@@ -1,0 +1,37 @@
+Layout/TrailingEmptyLines: # uuendatud nimi (varem TrailingBlankLines)
+  Enabled: false
+
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/Documentation: # lisatud 'Style/' prefix
+  Enabled: false
+
+Layout/LineLength: # uuendatud nimi (varem Metrics/LineLength)
+  Max: 100
+
+Metrics/BlockLength:
+  Exclude:
+    - 'app/views/**/*.xml.builder'
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'test/**/*'
+    - 'spec/**/*'
+    - 'Rakefile'
+    
