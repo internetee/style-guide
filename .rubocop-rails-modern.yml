@@ -1,0 +1,23 @@
+require: rubocop-rails
+inherit_from:
+  - .rubocop-ruby-modern.yml
+
+# Layout rules (moved from Metrics namespace)
+Layout/BlockLength:
+  Exclude:
+    - 'app/views/**/*.xml.builder'
+
+# Rails rules
+Rails/SkipsModelValidations:
+  AllowedMethods:
+    - touch
+
+# Global configuration
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'node_modules/**/*'
+    - 'test/**/*'
+    - 'Rakefile'
