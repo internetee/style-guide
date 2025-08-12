@@ -1,0 +1,58 @@
+# Modern RuboCop configuration for Ruby projects
+# This file uses current rule names as of RuboCop 1.50+
+
+# Style rules
+Style/Alias:
+  EnforcedStyle: prefer_alias_method
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/Lambda:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+Style/MixedRegexpCaptureTypes:
+  Enabled: false
+
+Style/KeywordParametersOrder:
+  Enabled: false
+
+# Documentation rules
+Style/Documentation:
+  Enabled: false
+
+# Layout rules
+Layout/LineLength:
+  Max: 120
+
+# Metrics rules
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+# Naming rules
+Naming/MethodParameterName:
+  AllowedNames:
+    - x
+    - y
+    - ph
+    - pw
+    - ip
+    - id
