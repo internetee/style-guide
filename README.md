@@ -10,5 +10,6 @@ Since on 2025 CodeClimate was migrated to Qlty.sh tool that uses modern Rubocop 
 |-|-|
 | rubocop-rails.yml | rubocop-rails-modern.yml |
 | rubocop-ruby.yml | rubocop-ruby-modern.yml |
+| ruby/.rubocop.yml | ruby/.rubocop-modern.yml |
 
 Qlty configuration: https://docs.qlty.sh/qlty-toml
